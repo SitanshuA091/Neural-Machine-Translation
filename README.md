@@ -12,6 +12,7 @@ This repository contains a Neural Machine Translation (NMT) project implemented 
 - `config.py` - Centralized configuration for hyperparameters, file paths, and device settings
 - `train.py` - Main script that loads data, builds tokenizers, trains both models, and saves them
 - `inference.py` - Provides translation functions and loads saved models for inference
+- `eval.py` - to evaluate model performance with bleu scores for seq2seq and attention models
 
 **Models Directory**
 - `attention.py` - Implements Luong attention mechanism for the attention-based decoder
